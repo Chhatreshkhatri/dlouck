@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: "Dlouck | Home",
   description: "Dlouck website built with Next.js and TailwindCSS",
+  keywords: ['Dlouck','Next.js', 'React', 'JavaScript','Github','website'],
   url: "https://www.dlouck.com",
   sitename: "Dlouck",
   type: "website",
