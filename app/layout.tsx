@@ -1,16 +1,17 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dlouck | Home",
   description: "Dlouck website built with Next.js and TailwindCSS",
-  keywords: ["Dlouck", "Next.js", "React", "JavaScript", "Github", "website"],
+  keywords: ["Dlouck", "Next.js", "React", "JavaScript", "Tailwind", "Github", "website","Chhatresh Khatri"],
   url: "https://www.dlouck.com",
   sitename: "Dlouck",
   type: "website",
-  author: "Dlouck",
+  author: "Chhatresh Khatri",
   alternates: {
     canonical: "https://www.dlouck.com",
   },
@@ -28,14 +29,14 @@ export const metadata = {
     url: "https://www.dlouck.com",
     type: "website",
     site_name: "Dlouck",
-    author: "Dlouck",
+    author: "Chhatresh Khatri",
   },
   twitter: {
     title: "Dlouck | Home",
     url: "https://www.dlouck.com",
     description: "Dlouck website built with Next.js and TailwindCSS",
     card: "summary",
-    creator: "@mackXsun",
+    creator: "@chhatreshkhatri",
   },
 };
 
@@ -49,12 +50,12 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         {/* Google tag (gtag.js) */}
-        <script
+        <Script
           data-hydration="defer"
           src="https://www.googletagmanager.com/gtag/js?id=G-EFHM3M3LMZ"
           defer
-        ></script>
-        <script
+        ></Script>
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -64,7 +65,7 @@ export default function RootLayout({
             `,
           }}
           defer
-        ></script>
+        ></Script>
       </body>
     </html>
   );
