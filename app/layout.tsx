@@ -1,12 +1,12 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dlouck | Home",
   description: "Dlouck website built with Next.js and TailwindCSS",
-  keywords: ['Dlouck','Next.js', 'React', 'JavaScript','Github','website'],
+  keywords: ["Dlouck", "Next.js", "React", "JavaScript", "Github", "website"],
   url: "https://www.dlouck.com",
   sitename: "Dlouck",
   type: "website",
@@ -16,8 +16,10 @@ export const metadata = {
   },
   category: "website",
   icons: {
-    icon: [{url: '/favicon.svg', sizes: 'any', type: 'image/svg+xml'}],
-    shortcut: [{url: '/favicon.ico', sizes: '16x16 32x32', type: 'image/x-icon'}],
+    icon: [{ url: "/favicon.svg", sizes: "any", type: "image/svg+xml" }],
+    shortcut: [
+      { url: "/favicon.ico", sizes: "16x16 32x32", type: "image/x-icon" },
+    ],
   },
   manifest: "/app.webmanifest",
   openGraph: {
@@ -40,12 +42,12 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any"/> */}
+      <body className={inter.className}>
+        {children}
         {/* Google tag (gtag.js) */}
         <script
           data-hydration="defer"
@@ -63,8 +65,7 @@ export default function RootLayout({
           }}
           defer
         ></script>
-      </head>
-      <body className={inter.className}>{children}</body>
+      </body>
     </html>
-  )
+  );
 }
