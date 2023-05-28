@@ -1,0 +1,22 @@
+{
+  "name": "Dlouck | Home",
+  "short_name": "Dlouck",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "Dlouck website built with Next.js and TailwindCSS",
+  "theme_color": "#000",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
