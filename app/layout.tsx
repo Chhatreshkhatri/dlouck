@@ -1,13 +1,22 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Script from 'next/script';
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dlouck | Home",
   description: "Dlouck website built with Next.js and TailwindCSS",
-  keywords: ["Dlouck", "Next.js", "React", "JavaScript", "Tailwind", "Github", "website","Chhatresh Khatri"],
+  keywords: [
+    "Dlouck",
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind",
+    "Github",
+    "website",
+    "Chhatresh Khatri",
+  ],
   url: "https://www.dlouck.com",
   sitename: "Dlouck",
   type: "website",
@@ -51,11 +60,13 @@ export default function RootLayout({
         {children}
         {/* Google tag (gtag.js) */}
         <Script
+          id="gtag"
           data-hydration="defer"
           src="https://www.googletagmanager.com/gtag/js?id=G-EFHM3M3LMZ"
           defer
         ></Script>
         <Script
+          id="gtag-config"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];

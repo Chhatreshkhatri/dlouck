@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const NotFound = () => {
   return (
@@ -15,7 +16,7 @@ const NotFound = () => {
           Home page
         </Link>
       </p>
-      <img
+      <Image
         src="https://www.svgrepo.com/show/474749/broken-link.svg"
         alt="404 Error"
         className="mt-8 h-72"
