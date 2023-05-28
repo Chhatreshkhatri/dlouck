@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'dlouck',
-  description: 'nextjs'
+  title: 'Dlouck | Home',
+  description: 'Dlouck website built with Next.js and TailwindCSS',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes='any'/>
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any"/>
         {/* Google tag (gtag.js) */}
         <script
           data-hydration="defer"
@@ -34,7 +34,6 @@ export default function RootLayout({
           }}
           defer
         ></script>
-
       </head>
       <body className={inter.className}>{children}</body>
     </html>
