@@ -5,16 +5,18 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dlouck | Home",
-  description: "Dlouck website built with Next.js and TailwindCSS",
+  title: "Dlouck | Empowering Web Experiences",
+  description:
+    "Dlouck is a dynamic website crafted by Chhatresh Khatri with Next.js, a powerful framework for building modern web applications. Immerse yourself in beautifully designed and responsive pages, expertly powered by the latest web technologies. Explore the seamless integration of Next.js, Typescript and TailwindCSS, offering a delightful user experience. Discover captivating content and innovative features that showcase the art of web development at its finest.",
   keywords: [
     "Dlouck",
     "Next.js",
     "React",
     "JavaScript",
-    "Tailwind",
-    "Github",
-    "website",
+    "TailwindCSS",
+    "web development",
+    "frontend development",
+    "Github Actions",
     "Chhatresh Khatri",
   ],
   url: "https://www.dlouck.com/",
@@ -30,24 +32,26 @@ export const metadata = {
     shortcut: [
       { url: "/favicon.ico", sizes: "16x16 32x32", type: "image/x-icon" },
     ],
-    apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
   manifest: "/app.webmanifest",
   openGraph: {
-    title: "Dlouck | Home",
-    description: "Dlouck website built with Next.js and TailwindCSS",
+    title: "Dlouck | Empowering Web Experiences",
+    description:
+      "Discover the empowering and engaging web experiences offered by Dlouck. This dynamic website is built by Chhatresh Khatri using Next.js, a powerful framework for modern web applications. Explore beautifully designed and responsive pages, powered by the latest web technologies, including Next.js,Typescript and TailwindCSS. Immerse yourself in captivating content and innovative features that showcase the art of web development at its finest.",
     url: "https://www.dlouck.com/",
     type: "website",
+    images: "https://www.dlouck.com/og_t_image.png",
     site_name: "Dlouck",
     author: "Chhatresh Khatri",
   },
   twitter: {
-    title: "Dlouck | Home",
+    title: "Dlouck | Empowering Web Experiences",
     url: "https://www.dlouck.com/",
-    description: "Dlouck website built with Next.js and TailwindCSS",
-    card: "summary",
+    description:
+      "Discover the empowering and engaging web experiences offered by Dlouck. This dynamic website is built by Chhatresh Khatri using Next.js, a powerful framework for modern web applications. Explore beautifully designed and responsive pages, powered by the latest web technologies, including Next.js,Typescript and TailwindCSS. Immerse yourself in captivating content and innovative features that showcase the art of web development at its finest.",
+    images: "https://www.dlouck.com/og_t_image.png",
+    card: "summary_large_image",
     creator: "@chhatreshkhatri",
   },
 };
