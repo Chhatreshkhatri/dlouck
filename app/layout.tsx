@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Dlouck | Empowering Web Experiences",
   description:
-  "Dlouck is a dynamic website crafted by Chhatresh Khatri with Next.js, a powerful framework for building modern web applications. Immerse yourself in beautifully designed and responsive pages, expertly powered by the latest web technologies. Explore the seamless integration of Next.js, Typescript and TailwindCSS, offering a delightful user experience. Discover captivating content and innovative features that showcase the art of web development at its finest.",
+  "Dlouck: a dynamic website by Chhatresh Khatri with Next.js, Typescript and TailwindCSS. Explore innovative features and captivating content.",
   keywords: [
     "Dlouck",
     "Next.js",
@@ -38,7 +38,7 @@ export const metadata = {
   openGraph: {
     title: "Dlouck | Empowering Web Experiences",
     description:
-      "Discover the empowering and engaging web experiences offered by Dlouck. This dynamic website is built by Chhatresh Khatri using Next.js, a powerful framework for modern web applications. Explore beautifully designed and responsive pages, powered by the latest web technologies, including Next.js,Typescript and TailwindCSS. Immerse yourself in captivating content and innovative features that showcase the art of web development at its finest.",
+      "Dlouck: a dynamic website by Chhatresh Khatri with Next.js, Typescript and TailwindCSS. Explore innovative features and captivating content.",
     url: "https://www.dlouck.com/",
     type: "website",
     images: "/og_t_image.png",
@@ -49,7 +49,7 @@ export const metadata = {
     title: "Dlouck | Empowering Web Experiences",
     url: "https://www.dlouck.com/",
     description:
-      "Discover the empowering and engaging web experiences offered by Dlouck. This dynamic website is built by Chhatresh Khatri using Next.js, a powerful framework for modern web applications. Explore beautifully designed and responsive pages, powered by the latest web technologies, including Next.js,Typescript and TailwindCSS. Immerse yourself in captivating content and innovative features that showcase the art of web development at its finest.",
+      "Dlouck: a dynamic website by Chhatresh Khatri with Next.js, Typescript and TailwindCSS. Explore innovative features and captivating content.",
     images: "/og_t_image.png",
     card: "summary_large_image",
     creator: "@chhatreshkhatri",
