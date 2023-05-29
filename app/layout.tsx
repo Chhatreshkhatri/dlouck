@@ -22,7 +22,7 @@ export const metadata = {
   type: "website",
   author: "Chhatresh Khatri",
   alternates: {
-    canonical: "https://www.dlouck.com",
+    canonical: "https://www.dlouck.com/",
   },
   category: "website",
   icons: {
