@@ -30,6 +30,9 @@ export const metadata = {
     shortcut: [
       { url: "/favicon.ico", sizes: "16x16 32x32", type: "image/x-icon" },
     ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   manifest: "/app.webmanifest",
   openGraph: {
