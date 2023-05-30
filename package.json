@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "start": "-H 0.0.0.0",
+    "start-localhost": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "20.2.5",
