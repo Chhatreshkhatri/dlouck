@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Script from "next/script";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export const metadata = {
   ],
   sitename: "Dlouck",
   type: "website",
-  author: "Chhatresh Khatri",
+  authors: [{name: 'Chhatresh Khatri'}],
   metadataBase: new URL('https://www.dlouck.com'),
   alternates: {
     canonical: "https://www.dlouck.com/",
@@ -78,25 +78,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* Google tag (gtag.js) */}
-        <Script
-          id="gtag"
-          data-hydration="defer"
-          src="https://www.googletagmanager.com/gtag/js?id=G-EFHM3M3LMZ"
-          defer
-        ></Script>
-        <Script
-          id="gtag-config"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-EFHM3M3LMZ');
-            `,
-          }}
-          defer
-        ></Script>
+        <Analytics />
       </body>
     </html>
   );
