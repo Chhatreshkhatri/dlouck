@@ -1,10 +1,10 @@
 {
-  "name": "Dlouck | Home",
+  "name": "Dlouck | Empowering Web Experiences",
   "short_name": "Dlouck",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000",
-  "description": "Dlouck website built with Next.js and TailwindCSS",
+  "description": "Dlouck: a dynamic website by Chhatresh Khatri with Next.js, Typescript and TailwindCSS. Explore innovative features and captivating content.",
   "theme_color": "#000",
   "lang": "en",
   "icons": [
