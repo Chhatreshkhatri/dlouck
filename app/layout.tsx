@@ -28,9 +28,13 @@ export const metadata = {
   },
   category: "website",
   icons: {
+    shortcut: [
+      {url:'/d16x16',sizes:'16x16',type:'image/png'},
+    ],
     icon: [
+      { url: "/d32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/d48x48.png", sizes: "48x48", type: "image/png" },
       { url: "/favicon.svg", sizes: "any", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "16x16 32x32", type: "image/x-icon" },
     ],
     apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
